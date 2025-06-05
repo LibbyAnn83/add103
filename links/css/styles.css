@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(205, 231, 231);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 20px auto;
+    width: 80%;
+}
+
+h1{
+    color:blueviolet;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+    text-align: center;
+}
+
+h2{
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    text-align:center;
+}
+
+nav a{
+    font-size: larger;
+    color:aliceblue;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    font-weight:bold;
+    text-decoration: none;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 2px solid blueviolet
+}
+
+nav a:hover{
+    color:blueviolet;
+    background-color:aliceblue;
+}
+
+a {
+    color: darkmagenta;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+li{
+    padding: 5px;
+}
+
+p{
+    font-weight: bold;
+}
