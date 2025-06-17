@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Tables</title>
+    <link rel="stylesheet" href="../css/styles.css">
+     <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        table {
+            width: 95%;
+            margin: 20px auto;
+            border-collapse: collapse
+        }
+
+        th, td{
+            border: 3px solid darkgreen;
+            padding: 5px   
+        }
+
+        th{
+            color:aliceblue;
+            background-color: lightseagreen;
+        }
+
+        tr:hover{
+            background-color: bisque;
+        }
+
+        td{
+            text-align: center;
+            min-height: 25px;
+        }
+        
+        </style>
+</head>
+<body>
+    <div id="home">
+      <div class="container">
+        <h1>Styling Tables</h1>
+        <div class="container">
+            <nav>  
+            <a href="../index.html">Table Basics</a>
+            <a href="styling-tables.html">Styling Tables</a>
+            <a href="calendar.html">Creating a Calendar</a>
+            </nav>
+        </div>
+    </div>
+    </div>
+
+<table>
+  <tr>
+    <th></th>
+    <th>Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+  </tr>
+  <tr>
+    <th>7am</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>8am</th>
+    <td></td>
+    <td rowspan="4">Summer School</td>
+    <td rowspan="4">Summer School</td>
+    <td rowspan="4">Summer School</td>
+    <td rowspan="4">Summer School</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>9am</th>
+    <td></td>
+    <td></td>
+    <td>Swimming</td>
+  </tr>
+  <tr>
+    <th>10am</th>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>11am</th>
+    <td></td>
+    <td></td>
+    <td>Tumbling</td>
+  </tr>
+<tr>
+    <th>noon</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>1pm</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>2pm</th>
+    <td></td>
+    <td rowspan="2">Bowling</td>
+     <td rowspan="2">Bowling</td>
+      <td rowspan="2">Bowling</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>3pm</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>4pm</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Speech</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>5pm</th>
+    <td></td>
+    <td rowspan="3">Baseball Game</td>
+    <td>Ballet</td>
+    <td></td>
+    <td rowspan="3">Baseball Game</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>6pm</th>
+    <td></td>
+    <td rowspan="2">Baseball Practice</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>7pm</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+</table>
+
+</body>
+</html>
