@@ -1,0 +1,77 @@
+
+
+body{
+   background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+/* background gradient from cssgradient covers the whole page*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+
+.container{
+    border: 5px solid #833AB4;
+    border-radius: 30px;
+    margin: 50px 50px;
+    /*box shadow*/
+    -webkit-box-shadow:inset 5px 5px 15px 10px #410B78;
+box-shadow:inset 5px 5px 15px 10px #410B78;
+}
+
+h1{
+    /*text shadow*/
+    text-shadow: 4px 4px 4px #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+img{
+    /*transform picture to rotate 15 degrees */
+    -moz-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+    width: 45%;
+    border: 10px solid #833AB4;
+    vertical-align: middle;
+}
+
+.footer{
+    padding: 50px 50px;
+    border: 5px solid #833AB4;
+    -webkit-border-radius: 10px 10px 40px 40px;
+    border-radius: 10px 10px 40px 40px;
+    /* border radius with different px on top and bottom */
+    background-color: #FCB045;
+    text-align: center;
+}
+
+.box{
+    -webkit-box-shadow:inset 5px 5px 15px 10px #410B78;
+box-shadow:inset 5px 5px 15px 10px #410B78;
+}
+
+p{
+    font-size: 18px;
+    color:aliceblue;
+}
+
+.vertical{
+    /* vertical text */
+    writing-mode: vertical-lr;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+main{
+    /* add columns to the main section of the page*/
+    column-count: 3;
+    column-gap: 25px;
+}
