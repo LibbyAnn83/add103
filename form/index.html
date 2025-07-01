@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>    
+    <div class="container">
+      <h1>Form</h1>
+  
+    </div>
+</header>
+
+<main>
+    <form>
+        <h2>Cheerleading Registration</h2>
+        <h3>Name</h3>
+        <label for="fname">Child's First Name:</label>
+        <input type="text" id="fname" name="fname" size="50" required autofocus><br>
+        <label for="lname">Child's Last Name:</label>
+        <input type="text" id="lname" name="lname" size="50" required><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" size="50" placeholder="yourname@email.com">
+        
+        <h3>Please Select Your Child's Age on September 1st</h3>
+        <input type="checkbox" id="3" name="3" value="3">
+        <label for="3">3</label>
+        <input type="checkbox" id="4" name="4" value="4">
+        <label for="4">4</label>
+        <input type="checkbox" id="5" name="5" value="5">
+        <label for="5">5</label><br>
+        <input type="checkbox" id="6" name="6" value="6">
+        <label for="6">6</label>
+        <input type="checkbox" id="7" name="7" value="7">
+        <label for="7">7</label>
+        <input type="checkbox" id="8" name="8" value="8">
+        <label for="8">8</label><br>
+        <input type="checkbox" id="9" name="9" value="9">
+        <label for="9">9</label>
+        <input type="checkbox" id="10" name="10" value="10">
+        <label for="10">10</label>
+        <input type="checkbox" id="11" name="11" value="11">
+        <label for="11">11</label>
+        <input type="checkbox" id="12" name="12" value="12">
+        <label for="12">12</label><br>
+
+        <h3>Choose a Team</h3>
+        <input type="radio" id="tt" name="team" value="Tiny Tots (3-5)">
+        <label for="tt">Tiny Tots (3-5)</label><br>
+        <input type="radio" id="k1" name="team" value="K-1 Sidelines">
+        <label for="k1">Kindergarten - 1st Sidelines</label><br>
+        <input type="radio" id="24" name="team" value="2-4 Sidelines">
+        <label for="24">2nd - 4th Sidelines</label><br>
+        <input type="radio" id="56" name="team" value="5-6 Sidelines">
+        <label for="56">5th - 6th Sidelines</label>
+
+        <h3>Uniform Fitting</h3>
+        <label for="uniform">Select an option:</label>
+        <select id="uniform" name="uniform">
+            <option value="yes">I have already attended a uniform fitting</option>
+            <option value="no"> I have not attended a uniform fitting and I will attend of August 1</option>
+            <option value="other"> I have not attended a uniform fitting and I will not attend on August 1</option>
+        </select>
+
+        <h3>Allergies</h3>
+        <textarea name="allergies" rows="10" cols="50">
+            Enter any allergies or medical information to be shared with the coach.
+        </textarea>
+
+
+        <h3>Review Your Selections and Click Submit Below</h3>
+        <input type="submit">
+        <input type="reset" value="Clear and Start Over">
+
+
+
+
+
+
+    </form>
+</main>
+
+
+    
+</body>
+</html>
