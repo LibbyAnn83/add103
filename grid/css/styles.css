@@ -1,0 +1,134 @@
+
+body{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #DAC6BDff;
+  width: 80%;
+  display: block;
+  margin: 20px auto;
+  }
+
+h1{
+  font-family: "Amaranth", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #333740ff;
+  text-align: center;
+  font-size: 4em;
+  text-shadow: 4px 4px 4px #ffffff;
+}
+
+h2{
+  font-family: "Amaranth", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #333740ff;
+}
+
+p{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#333740ff;
+  line-height: 1.3;
+}
+
+#main-img{
+    background: #333740ff;
+    padding: 20px;
+    width: 50%;
+    margin: 10px auto;
+    display:block;
+    box-sizing: border-box;
+}
+
+#large {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.container{
+    width: 95%;
+    margin: 30px auto;
+    border: 5px solid #87736Eff; 
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container{
+  display: grid;
+  gap: 3px;
+  background: #333740ff;
+  box-sizing: border-box;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.grid-container>div{
+  background-color: #333740ff;
+  padding: 10px;
+  min-height: 75px;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.grid-container>div>img{
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+
+
+/*.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-alternates-medium {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-alternates-semibold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-alternates-bold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-alternates-extrabold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.amaranth-regular {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaranth-bold {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}*/
+
+/*--pale-dogwood: #DAC6BDff;
+--tropical-indigo: #918CC5ff;
+--onyx: #333740ff;
+--amaranth-pink: #D9A3B6ff;
+--cinereous: #87736Eff;*/
