@@ -260,7 +260,6 @@ footer{
 }
 
 a:link{
-  color: var(--secondary-text);
   text-decoration: underline;
 }
 
