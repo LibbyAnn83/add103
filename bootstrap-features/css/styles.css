@@ -1,0 +1,17 @@
+.container-fluid{
+    width: 90%;
+    margin: 10px auto;
+}
+
+img{
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.display-1{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
